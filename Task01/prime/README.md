@@ -1,36 +1,35 @@
-# CALCULATOR Game
+# Prime Game
 
-**CALCULATOR Game** — это консольная игра, которая показывается случайное арифметическое выражение с операциями +, -, *, содержащее четыре операнда (например 35+16*2-4), которое нужно вычислить и записать ответ. После этого программа должна вывести соответствующее сообщение и правильный ответ.
+**Prime Game** — это консольная игра, в которой игроку выдается случайное целое число, он должен определить, является ли оно простым. После ввода ответа программа должна вывести соответствующее сообщение. Если число не является простым, то дополнительно вывести его нетривиальные делители.
 
 ## Установка
 
 ### Локальная установка
 1. Клонируйте репозиторий:
    ```bash
-   git clone https://github.com/Mar1o2003/CALCULATOR.git
+   git clone https://github.com/NickolayKuzmin/prime-game
    cd Game_name
 2. Установите зависимости через Composer:
     ```bash
     composer install
 - Запустите игру:
     ```bash
-    php bin/calculator
+    php bin/prime
 ### Установка через Packagist
 1. Убедитесь, что Composer установлен глобально.
 2. Установите игру:
     ```bash
-    composer global require mar1o2003/php_shokov_dr
+    composer global require nickolaykuzmin/php_kuzmin_na
 3. Запустите игру из командной строки:
     ```bash
-    calculator
+    prime
 ## Используемые технологии
 - PHP — основной язык разработки.
 - Composer — для управления зависимостями и автозагрузки.
 - wp-cli/php-cli-tools — библиотека для удобного ввода/вывода в консоли.
 
-
 ## Ссылки
-- Packagist: [CALCULATOR Game](https://packagist.org/packages/mar1o2003/php_shokov_dr)
-- [Репозиторий на GitHub](https://github.com/Mar1o2003/CALCULATOR)
-- Автор: mar1o2003
+- Packagist: [Prime Game](https://packagist.org/packages/nickolaykuzmin/php_kuzmin_na)
+- [Репозиторий на GitHub](https://github.com/NickolayKuzmin/prime-game)
+- Автор: nickolaykuzmin
 - Лицензия: MIT

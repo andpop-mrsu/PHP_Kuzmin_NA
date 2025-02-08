@@ -1,11 +1,11 @@
 {
-    "name": "fertam/php_kuzmin_na",
-    "description": "Implementation of a php program on the topic \"Calculator\"",
+    "name": "fertam/php_Kuzmin_na",
+    "description": "Implementation of a php program on the topic \"Prime number\"",
     "type": "project",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "fertam\\CALCULATOR\\": "src/"
+            "fertam\\prime\\": "src/"
         },
         "files": [
             "src/Controller.php",
@@ -13,7 +13,7 @@
         ]
     },
     "bin": [
-        "bin/calculator"
+        "bin/prime"
     ],
     "authors": [
         {
