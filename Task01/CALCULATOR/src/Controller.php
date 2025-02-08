@@ -1,8 +1,8 @@
 <?php
 
-namespace Mar1o2003\CALCULATOR\Controller;
+namespace fertam\CALCULATOR\Controller;
 
-use Mar1o2003\CALCULATOR\View;
+use fertam\CALCULATOR\View;
 
 function startGame()
 {

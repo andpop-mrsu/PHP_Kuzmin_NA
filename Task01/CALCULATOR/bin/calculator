@@ -3,6 +3,6 @@
 
 require_once __DIR__ . '/../vendor/autoload.php';
 
-use Mar1o2003\CALCULATOR\Controller;
+use fertam\CALCULATOR\Controller;
 
 Controller\startGame();
